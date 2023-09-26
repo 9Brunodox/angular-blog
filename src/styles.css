@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+html {
+  font-size: 10px; /* Defina o tamanho da fonte base como 10 pixels */
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #111111;
+  color: white;
+  font-family: 'Segoe UI';
+}
+
+a{
+  text-decoration: none;
+}

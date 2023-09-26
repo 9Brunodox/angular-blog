@@ -1,0 +1,29 @@
+html {
+  font-size: 10px; /* Defina o tamanho da fonte base como 10 pixels */
+}
+
+.small-card {
+  margin-bottom: 15px;
+  width: 850px;
+}
+
+.small-card-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.small-card-img > img {
+  width: 250px;
+  min-width: 200px;
+  margin-right: 20px;
+}
+
+.small-card-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-card-separator {
+  margin-top: 10px;
+}
