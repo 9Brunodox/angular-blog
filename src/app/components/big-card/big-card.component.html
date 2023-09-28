@@ -4,15 +4,13 @@
   </div>
   <div class="big-card-title">
     <h1>
-      <a href="#">
-        {{ cardTitle }}
-      </a>
+      <a [routerLink]="['content', Id]">{{ bigCardTitle }}</a>
     </h1>
   </div>
   <div class="big-card-description">
     <p>
       <a href="#">
-        {{ cardDescription }}
+        {{ bigCardDescription }}
       </a>
     </p>
   </div>

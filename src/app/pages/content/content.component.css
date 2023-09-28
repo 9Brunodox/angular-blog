@@ -1,0 +1,27 @@
+.content {
+  width: 100%;
+  height: 100vh;
+
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.cover > img {
+  border: 5px solid grey;
+  border-radius: 5px;
+  width: 500px;
+  min-width: 500px;
+  height: 300px;
+}
+
+.ContentDesc{
+  margin-top: 15px;
+}
+
+.ContentDesc > p{
+  color: rgb(156, 154, 154);
+}

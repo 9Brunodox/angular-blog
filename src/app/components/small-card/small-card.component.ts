@@ -10,6 +10,8 @@ export class SmallCardComponent {
   imgSmallCard:string = ""
   @Input()
   smallCardTitle:string = ""
+  @Input()
+  Id:string = "0"
   constructor(){}
   ngOnInit(): void {}
 }

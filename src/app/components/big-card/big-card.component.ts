@@ -10,9 +10,12 @@ export class BigCardComponent implements OnInit {
   @Input()
   imgCover:string = ""
   @Input()
-  cardTitle:string = ""
+  bigCardTitle:string = ""
   @Input()
-  cardDescription:string = ""
+  bigCardDescription:string = ""
+  @Input()
+  Id:string = "0"
+
   constructor(){}
   ngOnInit(): void {
   }
